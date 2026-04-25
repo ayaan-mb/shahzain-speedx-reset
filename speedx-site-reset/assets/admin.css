@@ -1,0 +1,60 @@
+.speedx-reset-wrap {
+    max-width: 850px;
+}
+
+.speedx-warning-box {
+    background: #fff1f1;
+    border-left: 5px solid #d63638;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 18px 0;
+    color: #5a1f1f;
+}
+
+.speedx-warning-title {
+    margin: 0 0 8px;
+    color: #b00020;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+.speedx-reset-form {
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+    padding: 18px;
+}
+
+.speedx-reset-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#speedx-reset-confirmation {
+    width: 280px;
+    max-width: 100%;
+    margin-bottom: 14px;
+}
+
+.speedx-reset-button {
+    opacity: 0.65;
+    pointer-events: none;
+    border-color: #8c8f94;
+    background: #8c8f94;
+}
+
+.speedx-reset-button.speedx-reset-button--active {
+    opacity: 1;
+    pointer-events: auto;
+    border-color: #d63638;
+    background: #d63638;
+}
+
+.speedx-reset-button.speedx-reset-button--active:hover,
+.speedx-reset-button.speedx-reset-button--active:focus {
+    border-color: #b32d2e;
+    background: #b32d2e;
+}
