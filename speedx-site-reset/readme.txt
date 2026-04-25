@@ -4,7 +4,7 @@ Tags: reset, cleanup, admin, maintenance
 Requires at least: 6.0
 Tested up to: 6.6
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,9 +38,10 @@ Only users with `manage_options` can access or run it.
 
 == Installation ==
 
-1. Upload the plugin ZIP in **Plugins > Add New > Upload Plugin**.
-2. Activate **SpeedX Site Reset**.
-3. Go to **SpeedX Site Reset** in wp-admin.
+1. Build the upload package from this repository root: `./build-plugin-zip.sh`.
+2. In WordPress, upload **SpeedX-Site-Reset.zip** via **Plugins > Add New > Upload Plugin**.
+3. Activate **SpeedX Site Reset**.
+4. Go to **SpeedX Site Reset** in wp-admin.
 
 == Usage ==
 
@@ -50,6 +51,9 @@ Only users with `manage_options` can access or run it.
 4. Confirm the browser prompt.
 
 == Changelog ==
+
+= 1.0.1 =
+* Added source-zip loader compatibility and build script for upload-ready package.
 
 = 1.0.0 =
 * Initial release.
