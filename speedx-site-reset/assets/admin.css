@@ -1,0 +1,15 @@
+.speedx-reset-wrap { max-width: 900px; }
+.speedx-warning-box { background:#fff8d9; border:1px solid #f1c40f; border-left:6px solid #d4a200; border-radius:6px; padding:16px; margin:18px 0; color:#4a3a00; }
+.speedx-warning-title { margin:0 0 8px; font-size:16px; font-weight:700; text-transform:uppercase; }
+.speedx-reset-form { background:#fff; border:1px solid #e2e2e2; border-radius:6px; padding:18px; }
+.speedx-options-box { background:#fffbe6; border:1px solid #f1d26b; border-radius:6px; padding:14px; margin-bottom:14px; }
+.speedx-options-heading { margin-top:0; font-weight:700; }
+.speedx-option-card { display:block; background:#fff; border:1px solid #ddd; border-radius:6px; padding:10px 12px; margin:10px 0; cursor:pointer; }
+.speedx-option-card input { margin-right:8px; }
+.speedx-option-card strong { display:block; margin:0 0 3px 24px; color:#222; }
+.speedx-option-card span { display:block; margin-left:24px; color:#6a6a6a; }
+.speedx-option-card.speedx-option-card--selected { border-color:#f1c40f; box-shadow:0 0 0 2px rgba(241,196,15,.25); background:#fff8d7; }
+#speedx-reset-confirmation { width:280px; max-width:100%; margin-bottom:14px; }
+.speedx-reset-button { opacity:.7; pointer-events:none; background:#cccccc; border-color:#b5b5b5; color:#111; }
+.speedx-reset-button.speedx-reset-button--active { opacity:1; pointer-events:auto; background:#f1c40f; border-color:#d4a200; color:#111; }
+.speedx-reset-button.speedx-reset-button--active:hover,.speedx-reset-button.speedx-reset-button--active:focus { background:#ddb008; border-color:#b48d05; color:#111; }
