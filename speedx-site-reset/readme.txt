@@ -4,7 +4,7 @@ Tags: reset, cleanup, admin, maintenance
 Requires at least: 6.0
 Tested up to: 6.6
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,6 +51,10 @@ Only users with `manage_options` can access or run it.
 4. Confirm the browser prompt.
 
 == Changelog ==
+
+= 1.1.0 =
+* Added reset mode options (deactivate/delete plugins, deactivate/delete themes, nuclear reset).
+* Updated admin UI to yellow/white radio-card selector with RESET-gated action button.
 
 = 1.0.1 =
 * Added source-zip loader compatibility and build script for upload-ready package.
